@@ -1,9 +1,10 @@
 
 import csv
+from io import StringIO
 
 
 #Exercício 1
-'''
+
 def define_default_city(state):
 
     with open('capitais-BR.csv', 'r') as ficheiro:
@@ -16,13 +17,12 @@ def define_default_city(state):
         
      
 
-define_default_city("ac")'''
+define_default_city("ac")
 
-#with open('capitais-BR.csv','w',  encoding = 'utf-8') as csvfile:
 
 #Exercicio 2
-'''
-from io import StringIO
+
+
 buffer = StringIO()
 estados_sudestes = ['São Paulo', 'Minas Gerais', 'Espírito Santo', 'Rio de Janeiro']
 lista = []
@@ -38,7 +38,7 @@ with open('capitais-BR.csv','r', encoding = 'utf-8') as csvfile:
 with open('capitais-BR.csv', 'w', encoding = 'utf-8') as csvfile:
     csvfile.write(buffer.getvalue())
 
-  '''
+  
 #Exercício 3
 lista = []
 texto = ''

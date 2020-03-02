@@ -3,10 +3,11 @@
 from sys import getsizeof
 
 #Exercício 1
-#help(list)
-#help(tuple)
 
-#Exercicio 3
+dir(list)
+dir(tuple)
+
+#Exercicio 2
 
 professor1 = {'id': 42, 'name': 'Alexandre Abreu', 'age': 30, 'state_origin': 'Minas Gerais', 'courses': ['Inteligência Artificial', 'Mineração de Dados', 'Programação para Internet I', 'Programação para Internet II']}
 
